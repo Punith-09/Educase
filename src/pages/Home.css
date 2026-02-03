@@ -1,0 +1,39 @@
+.home {
+  flex: 1;
+  display: flex;
+}
+
+.home-content {
+  margin-top: auto;
+  width: 100%;
+}
+
+.home h2 {
+  font-size: 22px;
+  margin-bottom: 8px;
+}
+
+.home p {
+  font-size: 14px;
+  color: #949494;
+  margin-bottom: 24px;
+}
+
+.home button {
+  width: 100%;
+  padding: 12px;
+  border-radius: 8px;
+  border: none;
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+
+.primary {
+  background: #6c2bd9;
+  color: white;
+}
+
+.secondary {
+  background: #c2c2c2;
+  color: #000000;
+}

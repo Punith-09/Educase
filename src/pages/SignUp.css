@@ -1,0 +1,61 @@
+.signup {
+  width: 100%;
+}
+.signup h2 {
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+.field {
+  position: relative;
+  margin-bottom: 18px;
+}
+
+.field input {
+  width: 100%;
+  padding: 12px 10px;
+  border-radius: 6px;
+  border: 1px solid #dcdcdc;
+  font-size: 14px;
+  outline: none;
+  background: none;
+}
+
+.field label {
+  position: absolute;
+  top: -7px;
+  left: 10px;
+  background: #ffffff;
+  padding: 0 6px;
+  font-size: 12px;
+  font-weight: 600;
+  color: #6c2bd9;
+}
+.radio {
+  margin-top: 10px;
+}
+
+.radio p {
+  font-size: 13px;
+  margin-bottom: 6px;
+}
+
+.radio label {
+  margin-right: 20px;
+  font-weight: normal;
+}
+.signup button {
+  width: 100%;
+  padding: 12px;
+  margin-top: 24px;
+  border-radius: 8px;
+  border: none;
+  background: #6c2bd9;
+  color: white;
+  font-weight: 600;
+  margin-top: 140px;
+ }
+
+input:required + label::after {
+  content: "*";
+  color: red;
+}
