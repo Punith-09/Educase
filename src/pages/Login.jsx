@@ -1,6 +1,11 @@
+import { useNavigate } from "react-router-dom";
 import "./Login.css";
 
 const Login = () => {
+  const navigate = useNavigate();
+  const handleSubmit = () => {
+    navigate("/profile");
+  }
   return (
     <div className="login">
       <h2>
@@ -22,7 +27,7 @@ const Login = () => {
         <input type="password" placeholder="Enter password" />
       </div>
 
-      <button disabled>Login</button>
+      <button onClick={handleSubmit} >Login</button>
     </div>
   );
 };
